@@ -623,13 +623,13 @@ to {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 }
 
 .item {
   margin: 20px;
   width: 420px;
-  height: 400px;
+  min-height: 400px;
   background: #f0f2f0;
   color: #333;
   transition: transform 0.3s ease-out;
